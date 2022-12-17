@@ -1,0 +1,14 @@
+# main links
+main:
+  - title: "Posts"
+    url: /posts-by-year/
+    description : Posts by Year
+  - title: "Tags"
+    url: /posts-by-tags/
+    description : Posts by Tags
+  - title: "About"
+    url: /about/
+    description : About Me
+  - title: "Contact"
+    url : "/contact/"
+    desription : Contact Me
