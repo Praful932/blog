@@ -1,5 +1,7 @@
 ---
 title : Ordering of set() when dealing with strings in python
+header :
+    teaser : /assets/images/blog-1/hash-table.png
 tags:
     - python
     - tech
@@ -7,7 +9,7 @@ tags:
 excerpt : "Why sets are unordered 🤔 and alternatives to order them"
 classes : "wide"
 ---
-While working on a baseline ML model for a side-project, I found that across different runs of my experiment, the results that my model was generating were not exactly reproducible i.e. I was not getting the same performance metrics for the same model configuration, despite having all the knobs in place.
+While working on a baseline ML model for a side-project, I found that across different runs 🧪 of my experiments, the results that my model was generating were not exactly reproducible i.e. I was not getting the same performance metrics for the same model configuration, despite having all the knobs in place.
 
 After debugging for quite some time, I found that this snippet was the root of my problems :
 
@@ -34,9 +36,10 @@ When you call a `set()` on a `list` object, it returns unique values for the inp
 <p style="text-align: center;">
     <em>Hash Table</em>
 </p>
-Converting a `list` into a `set` is easy since, for two similar values, both of them will map to the same exact hash bucket. However, this hash function is not always deterministic, particularly when dealing with string objects across two different python **invocations**. Let’s look at a few examples
+Converting a `list` into a `set` is easy, since for two similar values, both of them will map to the same exact hash bucket. However, this hash function is not always deterministic, particularly when dealing with string objects across two different python **invocations**. Let’s look at a few examples
 
 ```python
+"""snippet1.py"""
 # Snippet to get hash values
 
 a = "1"
@@ -67,10 +70,10 @@ Hash value of 6.4512 - 1040396365757218822
 ```
 
 ```bash
-$ python snippet2.py
+$ python snippet1.py
 
-Hash value of 1 - -4063697229886127947
-Hash value of abcde - 3855885316915615117
+Hash value of 1 - -9001918643517506909
+Hash value of abcde - -757009308147773598
 Hash value of 1234 - 1234
 Hash value of 6.4512 - 1040396365757218822
 ```
@@ -88,6 +91,8 @@ In the `set()` data structure, after hashing is done for an object, python takes
 Here’s an example to make the concept concrete:
 
 ```python
+"""snippet2.py"""
+
 l1 = [9,1,1,2,3,4,5,1,1,2]
 l2 = ["def",2,3,4,"abc", "abc", "deg", "xyz"]
 
@@ -127,8 +132,6 @@ As of Python 3.7+, [dicts](https://docs.python.org/3.7/library/stdtypes.html#map
 sample_list = ["def",2,3,4,"abc", "abc", "deg", "xyz"]
 
 sample_set = list(dict.fromkeys(sample_list))
-
-print(sample_set)
 ```
 
 This is how I modified my code
