@@ -1,7 +1,7 @@
 ---
 title : Ordering of set() when dealing with strings in python
 header :
-    teaser : /assets/images/blog-1/hash-table.png
+    teaser : /assets/images/blog-1-ordered-sets/hash-table.png
 tags:
     - python
     - tech
@@ -32,7 +32,7 @@ And we’ll see why.
 First, we need to understand how `set()` is implemented in python. Internally a `set()` data structure is implemented using a hash table. A hash table by definition has a hash function, which takes in the input and maps the data to a unique bucket using the hash value, this is how it can do membership checking in `O(1)`.
 
 When you call a `set()` on a `list` object, it returns unique values for the input that you provided. Internally to distinguish this **“uniqueness”** it uses the hash function we discussed above.
-![Hash Table](/assets/images/blog-1/hash-table.png)
+![Hash Table](/assets/images/blog-1-ordered-sets/hash-table.png)
 <p style="text-align: center;">
     <em>Hash Table</em>
 </p>
