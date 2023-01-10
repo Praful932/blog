@@ -1,7 +1,7 @@
 ---
 title : Using pre-commit hooks to write better code
 header :
-    teaser : /assets/images/blog-1/hash-table.png
+    teaser : /assets/images/blog-2-pre-commit-hooks/teaser.jpeg
 tags:
     - python
     - tech
@@ -21,7 +21,7 @@ pre-commit can be installed via `pip`, `brew` or `conda`, Using `pip` the comman
 
 `pip install pre-commit`
 
-## The pre-commit config file
+## The pre-commit config file 📃
 
 Post installation, you may need to set up the config file. Once you have the config file setup, all you need to do is run `pre-commit run` to let it do its magic 🪄.
 The file which manages the configuration of all your hooks is the `.pre-commit-config.yaml` file. The configuration file follows the YAML syntax. There can be more than one hook associated with a pre-commit configuration file. This file describes what hooks the project will be using.
@@ -181,6 +181,7 @@ Pylint has several built-in components which make it powerful to even infer actu
 Let’s look at how pylint does on a sample snippet of python code
 
 ```python
+"""script.py"""
 import numpy as np
 
 def MapFeature(X1, X2):
@@ -264,11 +265,12 @@ pylint can be used as pre-commit hook by adding it as so:
     - id: pylint
 ```
 
-### Final pre-commit-config.yaml
+### Final pre-commit-config.yaml 📝
 
 Here is the final sample YAML file which combines all of the hooks that we saw so far and also with some useful tweaks, particularly for `pylint`.
 
 ```yaml
+# .pre-commit-config.yml
 repos:
 - repo: https://github.com/ambv/black
   rev: 22.3.0
@@ -324,14 +326,14 @@ Run pre-commit(`pre-commit run`) using the above config file to see it work its 
 
 **Note** : You will need `pylint` already installed since `repo : local` & `language : system` are defined.
 
-## In this article
+## In this article ☕️
 
 - You understood why pre-commit is useful
 - How a pre-commit config file is structured
 - You looked at various hooks(black, pyupgrade and pylint) and how they can be used to tidy up your code.
 
 I hope this article was useful, for any doubts, do comment below.
-Find the snippets of this blog and the config file that I generally use here : )
+Find the snippets of this blog and the config file that I generally use [here](https://github.com/Praful932/blog/tree/main/blog-artifacts/blog-2-pre-commit-hooks) : )
 
 ## References
 - [pre-commit Documentation](https://pre-commit.com/)

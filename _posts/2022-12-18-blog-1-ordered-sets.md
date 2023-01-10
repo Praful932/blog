@@ -179,6 +179,7 @@ Running this snippet will give you the same ordering each time. Try it out : )
 - How you can make them ordered
 - Alternatives to preserve ordering and get unique values
 
+Find the snippets from this blog over [here](https://github.com/Praful932/blog/tree/main/blog-artifacts/blog-1-ordered-sets) : )
 
 ### References
 1. [Documentation on hash](https://docs.python.org/3.4/reference/datamodel.html#object.__hash__)

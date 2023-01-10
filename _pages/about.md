@@ -19,7 +19,7 @@ When you don't find me coding/writing, I'll be
 
 ---
 
-On this blog, I document my learnings and experiences.
+On this blog, I document my learnings and experiences. I usually publish new blogs in the first week of a month.
 
 I am reachable on [LinkedIn](https://www.linkedin.com/in/praful-mohanan-26615873/) & [Twitter](https://twitter.com/PrafulMohanan) : )
 
