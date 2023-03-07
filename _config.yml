@@ -15,13 +15,13 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-IN"
-title                    : "Praful Mohanan"
+title                    : "Praful's Almanac"
 title_separator          : "-"
 subtitle                 : ""# site tagline that appears below site title in masthead
 name                     : "Praful Mohanan"
-description              : "Personal Blog where I write about my learnings & experiences."
+description              : "Personal Blog where I share about things that I experience and learn"
 
-url                      : "https://praful932.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://praful932.dev" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "praful932/blog" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "" # path of fallback teaser image, e.g. "/assets/images/500x300.png"

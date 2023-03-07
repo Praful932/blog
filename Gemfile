@@ -13,7 +13,7 @@ source "https://rubygems.org"
 
 # To upgrade, run `bundle update`.
 
-gem "jekyll"
+gem "jekyll", github: "jekyll/jekyll", ref: "refs/pull/9248/head"
 gem "minimal-mistakes-jekyll"
 
 # The following plugins are automatically loaded by the theme-gem:
@@ -27,3 +27,6 @@ gem "minimal-mistakes-jekyll"
 # Cf. https://jekyllrb.com/docs/plugins/installation/
 group :jekyll_plugins do
 end
+gem "webrick", "~> 1.7"
+
+gem "liquid", "~> 4.0"
