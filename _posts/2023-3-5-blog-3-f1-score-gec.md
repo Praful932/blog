@@ -1,5 +1,5 @@
 ---
-title : Understanding how F1 Score works for Grammar Error Correction
+title : Understanding the F1 Score metric for evaluating Grammar Error Correction Systems
 header :
     teaser : /assets/images/blog-3-f1-score-gec/teaser.png
 
