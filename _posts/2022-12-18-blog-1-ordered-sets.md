@@ -1,7 +1,7 @@
 ---
 title : Ordering of set() when dealing with strings in python
 header :
-    teaser : /assets/images/blog-1-ordered-sets/hash-table.png
+    teaser : /assets/images/blog-1-ordered-sets/hash-table.jpeg
 tags:
     - python
     - tech
