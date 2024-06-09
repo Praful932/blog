@@ -5,7 +5,7 @@ title: About
 sidebar: true
 author_profile : true
 ---
-Currently working as a Software Engineer (ML) at [Prodigal](https://www.prodigaltech.com/) solving some interesting & challenging problems in the conversational space, including but not limited to summarization and intent detection.
+Currently working as a ML Engineer at [Prodigal](https://www.prodigaltech.com/) solving some interesting problems in the conversational space. My current interests lie in getting better outputs out of SLMs (<7B models) & low level design.
 
 
 Prior to that I was an undergrad('22) 🎓 at [DYPCOE](https://www.dypcoeakurdi.ac.in/) studying computer science. While pursuing my undergrad, I worked on [multiple open-source projects](https://github.com/Praful932) with amazing collaborators.
@@ -14,12 +14,14 @@ During that time I also collaborated with [Omdena](https://omdena.com/) on AI pr
 
 When you don't find me coding/writing, I'll be
 * [Reading](https://www.goodreads.com/review/list/119895847?shelf=%23ALL%23) up on something
-* Geeking out on [Anime](https://myanimelist.net/profile/SinizterChill) & [TV Shows](https://www.tvtime.com/en/user/9531617/profile)
-* Cleaning up 🧹 my Notion Space
+* Geeking out on [Anime](https://myanimelist.net/profile/SinizterChill) & Greek Mythology
+* Learning Japanese 🍜
+
+fun fact - I used to run a game zone🎮 with my own computer when I was 12 :)
+
+If you're interested in s̶e̶t̶t̶i̶n̶g̶ ̶u̶p̶ ̶a̶ ̶g̶a̶m̶e̶ ̶z̶o̶n̶e̶ ̶b̶u̶s̶i̶n̶e̶s̶s̶ discussing these topics further, [let's catch up!](https://calendly.com/praful-mohanan/1x1)
 
 ---
-
-On this blog, I document my learnings and experiences. I usually publish new blogs in the first week of a month.
 
 I am reachable on [LinkedIn](https://www.linkedin.com/in/praful-mohanan-26615873/) & [Twitter](https://twitter.com/PrafulMohanan) : )
 
