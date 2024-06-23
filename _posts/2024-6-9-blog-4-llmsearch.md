@@ -17,8 +17,6 @@ Back when [GPT-J from EleutherAI](https://huggingface.co/EleutherAI/gpt-j-6b) ha
 
 ```python
 {
-    "top_p" : 0.5,
-    "temperature" : 1,
     "max_new_tokens" : 15,
     "min_new_tokens" : 5,
     "num_beams" : 3,
