@@ -7,7 +7,7 @@ author_profile : true
 ---
 Currently working as a Senior ML Engineer at [Visa](https://visa.com/) on the AI Governance team, building *AI Observatory* - an internal platform to monitor and govern ML models, GenAI applications, and agents across Visa. [Read](https://fortune.com/2025/10/07/visa-artificial-intelligence-science-art/) about what it can do.
 
-I recently collaborated with [HuggingFace Science](https://huggingface.co/) on an [antibody developability](https://github.com/Praful932/antibody-developability-abmelt) research project. My current interests lie in LLM internals (attention, decoding, KV caching), getting better outputs out of SLMs (<7B models), and ML in healthcare. At present I'm working towards a research career (with a good interesection in engineering).
+I recently collaborated with [HuggingFace Science](https://huggingface.co/) on an [antibody developability](https://github.com/Praful932/antibody-developability-abmelt) research project. My current interests lie in LLM internals (attention, decoding, KV caching), getting better outputs out of SLMs (<7B models), and ML in healthcare. At present I'm working towards a research career (with a good intersection in engineering).
 
 Prior to Visa, I spent ~3 years at [Prodigal](https://www.prodigaltech.com/) (YC-backed) as an ML Engineer, where I owned the ML engine for a call summarization product generating ~100k summaries/day, finetuned LLMs for conversation understanding, and built NER models for healthcare PII redaction.
 
@@ -19,8 +19,4 @@ fun fact - I used to run a game zone 🎮 with my own computer when I was 12 :)
 
 I use this space to jot down my thoughts (not just limited to tech but life tooo)
 
-If you're interested in s̶e̶t̶t̶i̶n̶g̶ ̶u̶p̶ ̶a̶ ̶g̶a̶m̶e̶ ̶z̶o̶n̶e̶ ̶b̶u̶s̶i̶n̶e̶s̶s̶ discussing these topics further, [let's catch up!](https://calendly.com/praful-mohanan/1x1)
-
 ---
-
-I am reachable on [LinkedIn](https://www.linkedin.com/in/praful-mohanan-26615873/) & [Twitter](https://twitter.com/PrafulMohanan) : )
