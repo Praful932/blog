@@ -198,6 +198,7 @@ kramdown:
 sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  quiet_deps: true  # suppress Dart Sass deprecation warnings from theme vendor files
 
 
 # Outputting
